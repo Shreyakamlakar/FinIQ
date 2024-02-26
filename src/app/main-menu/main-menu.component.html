@@ -1,0 +1,41 @@
+<table>
+    <tr>
+      <td>Entity</td>
+      <td> <select name="entity" id="">
+        <option value="ADCB UAE">ADCB UAE</option>
+      </select>
+      </td>
+  
+      <td>Product</td>
+      <td> <select name="product" id="">
+        <option value="AIF">AIF</option>
+      </select>
+      </td>
+  
+      <td>Total Record(s) 1</td>
+    </tr>
+  
+    <tr>
+      <td></td>
+      <td colspan="3" >
+        <input class="func_btn" type="button" title="New" value="New" (click)="onNew()" />
+        <input class="func_btn" type="button" title="Save" value="Save" [disabled]="enableSave" (click)="onSave()"/>
+        <input class="func_btn" type="button" title="Cancel" value="Cancel" />
+        <input class="func_btn" type="button" title="Delete" value="Delete" disabled />
+  
+      </td>
+    </tr>
+  </table>
+
+
+  <!-- <table>
+    <tr *ngIf="onNew()" >
+      <tbody>
+        <td><input type="checkbox">
+        </td>
+        <td>1</td>
+        <td><input type="text"></td>
+      </tbody>
+      
+    </tr>
+  </table> -->
